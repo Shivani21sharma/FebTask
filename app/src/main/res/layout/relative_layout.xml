@@ -66,14 +66,15 @@
         android:layout_toRightOf="@+id/Camera"
         android:hint="Setting" />
 
-    <TextView
+    <EditText
         android:id="@+id/TextDescription"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_alignBottom="@+id/Setting"
         android:layout_marginBottom="-173dp"
-        android:text="Singapore, city-state located at the southern tip of the Malay Peninsula, about 85 miles (137 kilometres) north of the Equator. It consists of the diamond-shaped Singapore Island and some 60 small islets; the main island occupies all but about 18 square miles of this combined area."
-        android:textSize="20sp" />
+        android:hint="Singapore, city-state located at the southern tip of the Malay Peninsula, about 85 miles (137 kilometres) north of the Equator. It consists of the diamond-shaped Singapore Island and some 60 small islets; the main island occupies all but about 18 square miles of this combined area."
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
 
     <Button
         android:layout_width="wrap_content"
